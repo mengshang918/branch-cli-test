@@ -1,12 +1,20 @@
 {
   "name": "branchclear-cli-test",
   "version": "1.0.0",
-  "keywords": ["branchclear","branchclear-cli","test"],
+  "keywords": [
+    "branchclear",
+    "branchclear-cli",
+    "test"
+  ],
   "description": "测试branchclear-cli",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clear": "branchclear"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "branchclear-cli": "^2.1.0"
+  }
 }
